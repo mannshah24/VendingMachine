@@ -66,7 +66,7 @@ impl VendingMachine {
     }
 
     // Get the cupcake balance for the specified user.
-    pub fn get_cupcake_balance_for(&self, user_address: Address) -> Uint<256, 4> {
+    pub fn get_cupcake_balance_for_mann_1(&self, user_address: Address) -> Uint<256, 4> {
         // Return the user's cupcake balance from storage.
         return self.cupcake_balances.get(user_address);
     }
